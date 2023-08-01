@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="smoke Suite">
+    <test name="LambdaRegression">
+        <classes>
+
+           <class name="com.lambdatest_web_app.tests.LambdaScript"></class>
+
+        </classes>
+    </test>
+
+</suite>

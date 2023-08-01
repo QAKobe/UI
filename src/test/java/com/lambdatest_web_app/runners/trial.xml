@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="regression Suite">
+    <test name="LambdaRegression">
+        <classes>
+
+            <class name="com.lambdatest_web_app.tests.LambdaScript">
+                <methods>
+                    <exclude name="ValidateSliders2"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>

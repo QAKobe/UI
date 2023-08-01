@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="tumblr suite">
+    <test name="Tumblr Test">
+
+        <parameter name="email" value="kobeabdulqa@gmail.com"></parameter>
+        <parameter name="password" value="321"></parameter>
+        <parameter name="errorMsg" value="The password must be at least 8 characters long."></parameter>
+        <classes>
+            <class name="com.tumblr_web_app.tests.TumblrTest"></class>
+        </classes>
+    </test>
+</suite>

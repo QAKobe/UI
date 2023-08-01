@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="PHP est">
+    <test name="Smoke PHP">
+
+        <classes>
+
+            <class name="com.php.test.PhpScript"></class>
+
+        </classes>
+    </test>
+
+</suite>
